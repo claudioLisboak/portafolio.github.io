@@ -16,7 +16,7 @@ a {
   width: 100%; 
   display: flex;
   justify-content: flex-end;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .navbar-brand {
@@ -42,7 +42,7 @@ a {
 .navbar-nav .nav-link {
   display: flex;
   align-items: center;
-  margin-right: 10px; 
+  margin-right: 15px; 
 }
 
 .navbar-nav .nav-link i {
@@ -86,7 +86,7 @@ a {
 @media (max-width: 768px) {
 
   .navbar-nav {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .navbar-brand {
