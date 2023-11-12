@@ -231,3 +231,22 @@ section {
   text-align: center;
 }
 
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+}
+
+#footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer .social-icons i {
+  font-size: 1.6em;
+  margin-left: 10px; /* Puedes ajustar este valor según tu preferencia */
+}
+
