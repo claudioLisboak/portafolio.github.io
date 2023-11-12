@@ -1,11 +1,50 @@
 
 /*--------------------------------------------------------------
+# General Section
+--------------------------------------------------------------*/
+a {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*--------------------------------------------------------------
+# Navbar Section
+--------------------------------------------------------------*/
+
+.navbar-nav a {
+  font-weight: bold;
+  font-size: 1.2em; 
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px; 
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; 
+}
+
+.navbar-nav .nav-link i {
+  margin-right: 8px;
+}
+
+
+/*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/bg-chiloe.jpg") top center;
+  background: url("../img/Luna.jpg") top center;
   background-size: cover;
 }
 
@@ -26,6 +65,9 @@
 }
 
 #hero h1 {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
@@ -34,10 +76,12 @@
 }
 
 #hero p {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: sans-serif;
   font-weight: bold;
 }
 
