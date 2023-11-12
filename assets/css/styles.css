@@ -167,6 +167,29 @@ section {
   margin-bottom: 0;
 }
 
+#about {
+  background-color: #f8f9fa; 
+  padding: 60px 0; 
+}
+
+#about .content {
+  padding-top: 30px;
+}
+
+#about p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+#about ul {
+  list-style: none;
+  padding: 0;
+}
+
+#about ul li {
+  margin-bottom: 10px;
+}
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
